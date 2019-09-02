@@ -1,0 +1,58 @@
+# This file was created Tue Aug 20 13:53:32 2019
+# by the following command:
+# g_wham_s -it tpr-files.dat -if pullf-files.dat -o pmf.xvg -hist -unit kCal -v -ac -bs-method traj-gauss -nBootstrap 2000 
+#
+# g_wham_s is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Integrated autocorrelation times"
+@    xaxis  label "z"
+@    yaxis  label "IACT [ps]"
+@TYPE xy
+@    s0 symbol 1
+@    s0 symbol size 0.5
+@    s0 line linestyle 0
+#  WIN   tau(gr1)  tau(gr2) ...
+#   0         80.065
+#   1        7.85532
+#   2         51.731
+#   3        10.5624
+#   4        40.0054
+#   5        13.5911
+#   6        24.9597
+#   7        78.7558
+#   8        12.8866
+#   9        33.7268
+#  10        6.42838
+#  11        7.58006
+#  12         8.7978
+#  13        6.09023
+#  14        9.72187
+#  15        9.71356
+#  16        9.12096
+#  17        8.32648
+#  18        8.10506
+#  19        7.50869
+#  20        8.43627
+0.467647   80.065
+0.747166  7.85532
+0.942232   51.731
+ 1.16691  10.5624
+ 1.29519  40.0054
+ 1.41612  13.5911
+ 1.56129  24.9597
+ 1.91998  78.7558
+ 2.15312  12.8866
+ 2.20659  33.7268
+ 2.39039  6.42838
+ 2.61549  7.58006
+ 3.01551   8.7978
+ 3.09539  6.09023
+ 3.19105  9.72187
+ 3.63676  9.71356
+ 3.78732  9.12096
+ 3.84844  8.32648
+ 3.84379  8.10506
+ 3.97765  7.50869
+ 4.01354  8.43627
